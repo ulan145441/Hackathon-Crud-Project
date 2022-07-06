@@ -1,0 +1,84 @@
+body{
+    background: #1d2630;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffa200;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: #383737;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(221, 156, 3);
+    text-align: left;
+    padding: 8px 15px;
+    color: #ffa200;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #1d2630;
+}
+
+input[type="text"],input[type="number"]{
+    width:90%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #ffa200;
+}
+
+input[type="reset"]:hover{
+    background: #ffa200;
+}
+
+button{
+    /* background: #eee; */
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+    
+}
+
+button:hover{
+    background-color: #ffa200;
+}
+
+
